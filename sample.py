@@ -18,4 +18,4 @@ def get_requirements(file_path: str) -> List[str]:
         requirements.remove(HYPEN_E_DOT)
 
     return requirements
-print(get_requirements(r'C:\Users\naray\OneDrive\Pictures\Desktop\01-College_Stuff\ML_PROJECT\requirements.txt'))
+get_requirements(r'C:\Users\naray\OneDrive\Pictures\Desktop\01-College_Stuff\ML_PROJECT\requirements.txt')
